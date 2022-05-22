@@ -1,0 +1,3 @@
+Tiempo total ejecución: 1:57:17.845878
+Épocas totales de entrenamiento: 11495
+Mejor individuo: 11101110111
