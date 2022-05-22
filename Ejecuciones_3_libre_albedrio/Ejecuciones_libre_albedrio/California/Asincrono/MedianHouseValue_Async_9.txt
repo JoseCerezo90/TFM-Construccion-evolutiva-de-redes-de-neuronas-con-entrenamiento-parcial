@@ -1,0 +1,6 @@
+Tiempo total ejecución: 7:43:23.049704
+Épocas totales de entrenamiento: 95139
+Mejor individuo: 1111111110111
+--------------------------------------------------
+Iteration 1000. Best individual: 11110111. Best fitness: 0.21764393150806427. Population average: 0.2414085976779461 (MSE). TOP ind. fit.: 0.22049421370029448. Epoch accum: 87465
+Iteration 1000. Best individual: 1111111110111. Best fitness: 0.21820802986621857. Population average: 0.2336966458708048 (MSE). TOP ind. fit.: 0.22004932910203934. Epoch accum: 95139

@@ -1,0 +1,131 @@
+###############################################
+# RESULTADOS CALIFORNIA CONCURRENTE (CON ECO) #
+###############################################
+
+## Épocas de entrenamiento ##
+51396.0 & 15729.51 & 95139 & 30687
+
+## MSE/Precisión (Promedio) ##
+0.24164 & 0.00193 & 0.24558 & 0.23802
+
+## MSE/Precisión (TOP) ##
+0.22072 & 0.00053 & 0.22186 & 0.2199
+
+## MSE/Precisión (Mejor) ##
+0.21887 & 0.00086 & 0.22064 & 0.217
+
+-------------- SISTEMAS CON ECO --------------
+
+## Variación del grado de adaptacion del promedio de la población tras dejar que la población se termine de entrenar ##
+0.00444 & 0.0017 & 0.00878 & 0.00146
+
+## Incremento de épocas tras dejar que la población se termine de entrenar ##
+9242.84 & 2906.66917 & 15323 & 3526
+
+Porcentaje de variación del mejor individuo (sistemas con ECO): 17%
+----------------------------------------------
+
+--- Arquitecturas ---
+Hay 16 individuos con 2 capas ocultas.
+Hay 7 individuos con 3 capas ocultas.
+Hay 2 individuos con 4 capas ocultas.
+Analizamos en profundidad los individuos con 2 capas ocultas (interesan porque hay más)
+
+## Distribución neuronas de la capa oculta 0 ##
+5.3125 & 1.26089 & 9 & 4
+
+## Distribución neuronas de la capa oculta 1 ##
+3.0625 & 0.96623 & 5 & 1
+
+##############################################
+# RESULTADOS CALIFORNIA SECUENCIAL (SIN ECO) #
+##############################################
+
+## Épocas de entrenamiento ##
+88724.76 & 38438.08 & 196139 & 16422
+
+## MSE/Precisión (Promedio) ##
+0.23591 & 0.00366 & 0.24471 & 0.22691
+
+## MSE/Precisión (TOP) ##
+0.21964 & 0.00075 & 0.22138 & 0.21816
+
+## MSE/Precisión (Mejor) ##
+0.2183 & 0.00096 & 0.21973 & 0.21532
+
+--- Arquitecturas ---
+Hay 17 individuos con 2 capas ocultas.
+Hay 8 individuos con 3 capas ocultas.
+Analizamos en profundidad los individuos con 2 capas ocultas (interesan porque hay más)
+
+## Distribución neuronas de la capa oculta 0 ##
+5.88235 & 2.37344 & 11 & 3
+
+## Distribución neuronas de la capa oculta 1 ##
+3.88235 & 1.27797 & 6 & 1
+
+#########################################
+# RESULTADOS FIFA CONCURRENTE (CON ECO) #
+#########################################
+
+## Épocas de entrenamiento ##
+28852.04 & 11121.82 & 53859 & 14911
+
+## MSE/Precisión (Promedio) ##
+0.81287 & 0.00326 & 0.81811 & 0.80118
+
+## MSE/Precisión (TOP) ##
+0.82426 & 0.00182 & 0.82792 & 0.82022
+
+## MSE/Precisión (Mejor) ##
+0.82774 & 0.00267 & 0.83437 & 0.82196
+
+-------------- SISTEMAS CON ECO --------------
+
+## Variación del grado de adaptacion del promedio de la población tras dejar que la población se termine de entrenar ##
+0.00875 & 0.00505 & 0.02053 & 0.00208
+
+## Incremento de épocas tras dejar que la población se termine de entrenar ##
+11302.68 & 2700.53637 & 16778 & 6592
+
+Porcentaje de variación del mejor individuo (sistemas con ECO): 22%
+----------------------------------------------
+
+--- Arquitecturas ---
+Hay 25 individuos con 2 capas ocultas.
+Analizamos en profundidad los individuos con 2 capas ocultas (interesan porque hay más)
+
+## Distribución neuronas de la capa oculta 0 ##
+20.6 & 11.67219 & 55 & 7
+
+## Distribución neuronas de la capa oculta 1 ##
+5.68 & 5.32706 & 22 & 2
+
+########################################
+# RESULTADOS FIFA SECUENCIAL (SIN ECO) #
+########################################
+
+## Épocas de entrenamiento ##
+75819.0 & 28160.22 & 134102 & 28482
+
+## MSE/Precisión (Promedio) ##
+0.79195 & 0.02379 & 0.81476 & 0.72453
+
+## MSE/Precisión (TOP) ##
+0.81769 & 0.00274 & 0.82171 & 0.80918
+
+## MSE/Precisión (Mejor) ##
+0.82002 & 0.00282 & 0.82568 & 0.81079
+
+--- Arquitecturas ---
+Hay 16 individuos con 2 capas ocultas.
+Hay 7 individuos con 3 capas ocultas.
+Hay 0 individuos con 4 capas ocultas.
+Hay 2 individuos con 5 capas ocultas.
+Analizamos en profundidad los individuos con 2 capas ocultas (interesan porque hay más)
+
+## Distribución neuronas de la capa oculta 0 ##
+6.25 & 1.47902 & 9 & 5
+
+## Distribución neuronas de la capa oculta 1 ##
+3.0625 & 1.67589 & 6 & 1

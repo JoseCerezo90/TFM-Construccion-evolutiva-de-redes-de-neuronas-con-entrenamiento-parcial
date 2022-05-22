@@ -1,0 +1,17 @@
+En esta carpeta están las ejecuciones que se realizan con libre albedrio, es decir, la única 
+condición de parada en BP es que el individio no pueda aprender más
+y la única condición de parada de GGGP es que el top de mejores individuos no mejore
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CONDICIÓN PARADA BP (Entrenamiento de un individuo) - Entreno 50 individuos distintos con 300 épocas y veo qué condición haría que el aprendizaje
+se detuviera cuando pasen ciertas ejecuciones pero no sean excesivas, además, que el individuo haya aprendido todo lo posible.
+
+** California: Grado de adaptación no mejora más del 0.0175% --> Detiene por primera vez en la época 148 (de 300 que hay en total), si el porcentaje de mejora no se cumple durante 5 épocas seguidas
+** FIFA:       Grado de adaptación no mejora más del 0.05%   --> Detiene por primera vez en la época 124 (de 300 que hay en total), si el porcentaje de mejora no se cumple durante 5 épocas seguidas
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CONDICIÓN PARADA GGGP (Top de mejores individuos de la población) - Utilizo los archivos del progreso del valor de adaptación promedio de la
+población para ver en qué punto establecer que no se está mejorando demasiado.
+
+** California: Grado de adaptación promedio del top no mejora más del 0.129% --> Tras 5 iteraciones GGGP sin mejorar --> Demasiado rápido --> 0.0175%
+** FIFA:       Grado de adaptación promedio del top no mejora más del 0.115% --> Tras 5 iteraciones GGGP sin mejorar --> Demasiado rápido --> 0.05%
